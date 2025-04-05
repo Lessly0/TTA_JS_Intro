@@ -1,0 +1,15 @@
+// if-else
+
+let age=18;
+
+console.log(`You are ${age} years old`)
+
+if(age>= 18 && age<30){
+    console.log("You are eligible");
+}
+else if(age>30){
+    console.log("You are not eligible cause you are over 30 yrs old")   
+}
+else{
+    console.log("You are not eligible cause you are under 18 yrs old")
+}
